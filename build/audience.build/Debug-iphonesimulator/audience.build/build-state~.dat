@@ -1,0 +1,1196 @@
+Taudience
+v7
+r0
+t321560405.024028
+cCheck dependencies
+cProcessInfoPlistFile "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/Info.plist" audience-Info.plist
+cCompileXIB "/Users/andy/Documents/Cornell IDL/audience/MainWindow.xib"
+cCompileXIB "/Users/andy/Documents/Cornell IDL/audience/Classes/login.xib"
+cCompileXIB "/Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.xib"
+cCompileXIB "/Users/andy/Documents/Cornell IDL/audience/Classes/terms.xib"
+cProcessPCH /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch.gch audience_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/main.o "/Users/andy/Documents/Cornell IDL/audience/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/audienceAppDelegate.o "/Users/andy/Documents/Cornell IDL/audience/Classes/audienceAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIAuthenticationDialog.o "/Users/andy/Documents/Cornell IDL/audience/ASIAuthenticationDialog.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDataCompressor.o "/Users/andy/Documents/Cornell IDL/audience/ASIDataCompressor.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDataDecompressor.o "/Users/andy/Documents/Cornell IDL/audience/ASIDataDecompressor.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDownloadCache.o "/Users/andy/Documents/Cornell IDL/audience/ASIDownloadCache.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIFormDataRequest.o "/Users/andy/Documents/Cornell IDL/audience/ASIFormDataRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIHTTPRequest.o "/Users/andy/Documents/Cornell IDL/audience/ASIHTTPRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIInputStream.o "/Users/andy/Documents/Cornell IDL/audience/ASIInputStream.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASINetworkQueue.o "/Users/andy/Documents/Cornell IDL/audience/ASINetworkQueue.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/Reachability.o "/Users/andy/Documents/Cornell IDL/audience/Reachability.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/login.o "/Users/andy/Documents/Cornell IDL/audience/Classes/login.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CDataScanner.o "/Users/andy/Documents/Cornell IDL/audience/CDataScanner.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CDataScanner_Extensions.o "/Users/andy/Documents/Cornell IDL/audience/Extensions/CDataScanner_Extensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/NSDictionary_JSONExtensions.o "/Users/andy/Documents/Cornell IDL/audience/Extensions/NSDictionary_JSONExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONDeserializer.o "/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDeserializer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONScanner.o "/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONScanner.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONSerializer.o "/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONSerializer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/info_usage.o "/Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/terms.o "/Users/andy/Documents/Cornell IDL/audience/Classes/terms.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/full_release.o "/Users/andy/Documents/Cornell IDL/audience/Classes/full_release.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/audience" normal i386
+cGenerateDSYMFile "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app.dSYM" "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/audience"
+cTouch "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC1224400000000001C3D40
+t1287725636
+s1850688
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004CC1221800000000000004CF
+t1287725592
+s1231
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004CC1219F0000000000000AB3
+t1287725471
+s2739
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/MobileCoreServices.h
+c000000004CC122CF00000000000000EB
+t1287725775
+s235
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004CC122D0000000000005BF20
+t1287725776
+s376608
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004CC121E80000000000001A58
+t1287725544
+s6744
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC121F60000000000068970
+t1287725558
+s428400
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004A11E8210000000000002407
+t1242687521
+s9223
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004A11E8210000000000000DE2
+t1242687521
+s3554
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/arpa/inet.h
+c000000004CB3E46D0000000000001533
+t1286857837
+s5427
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/ifaddrs.h
+c000000004CB3E4770000000000000782
+t1286857847
+s1922
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/netdb.h
+c000000004A4181220000000000003057
+t1245806882
+s12375
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/netinet/in.h
+c000000004CBFACA90000000000005462
+t1287629993
+s21602
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/netinet6/in6.h
+c000000004CBFACA80000000000004F61
+t1287629992
+s20321
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
+c000000004CB3E48600000000000040AC
+t1286857862
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/socket.h
+c000000004CBFACAC0000000000005A69
+t1287629996
+s23145
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/zlib.h
+c000000004CC109BF00000000000102A5
+t1287719359
+s66213
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libz.1.2.3.dylib
+c000000004CC109C300000000000123B0
+t1287719363
+s74672
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIAuthenticationDialog.h
+c000000004D70DA0D0000000000000453
+t1299241485
+s1107
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIAuthenticationDialog.m
+c000000004D70DA0D0000000000003DED
+t1299241485
+s15853
+i"ASIAuthenticationDialog.h"
+i"ASIHTTPRequest.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/ASICacheDelegate.h
+c000000004D70DA0D00000000000011D1
+t1299241485
+s4561
+i<Foundation/Foundation.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIDataCompressor.h
+c000000004D70DA0D000000000000072C
+t1299241485
+s1836
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIDataCompressor.m
+c000000004D70DA0D0000000000001AAD
+t1299241485
+s6829
+i"ASIDataCompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIDataDecompressor.h
+c000000004D70DA0D00000000000006A3
+t1299241485
+s1699
+i<Foundation/Foundation.h>
+i<zlib.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIDataDecompressor.m
+c000000004D70DA0D0000000000001968
+t1299241485
+s6504
+i"ASIDataDecompressor.h"
+i"ASIHTTPRequest.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIDownloadCache.h
+c000000004D70DA0D0000000000000812
+t1299241485
+s2066
+i<Foundation/Foundation.h>
+i"ASICacheDelegate.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIDownloadCache.m
+c000000004D70DA0D000000000000420D
+t1299241485
+s16909
+i"ASIDownloadCache.h"
+i"ASIHTTPRequest.h"
+i<CommonCrypto/CommonHMAC.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIFormDataRequest.h
+c000000004D70DA0D0000000000000A6D
+t1299241485
+s2669
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIFormDataRequest.m
+c000000004D70DA0D0000000000002B6A
+t1299241485
+s11114
+i"ASIFormDataRequest.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIHTTPRequest.h
+c000000004D70DA0D000000000000AB64
+t1299241485
+s43876
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<UIKit/UIKit.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+i"ASICacheDelegate.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIHTTPRequest.m
+c000000004D70DA0D000000000002A041
+t1299241485
+s172097
+i"ASIHTTPRequest.h"
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+i"ASIDataDecompressor.h"
+i"ASIDataCompressor.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIHTTPRequestConfig.h
+c000000004D70DA0D00000000000003B0
+t1299241485
+s944
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIHTTPRequestDelegate.h
+c000000004D70DA0D000000000000063E
+t1299241485
+s1598
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIInputStream.h
+c000000004D70DA0D00000000000003C9
+t1299241485
+s969
+i<Foundation/Foundation.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIInputStream.m
+c000000004D70DA0D0000000000000C14
+t1299241485
+s3092
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/ASINetworkQueue.h
+c000000004D70DA0D000000000000120D
+t1299241485
+s4621
+i<Foundation/Foundation.h>
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/ASINetworkQueue.m
+c000000004D70DA0D0000000000002C8D
+t1299241485
+s11405
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/ASIProgressDelegate.h
+c000000004D70DA0D0000000000000678
+t1299241485
+s1656
+
+N/Users/andy/Documents/Cornell IDL/audience/CDataScanner.h
+c000000004D7290350000000000000A15
+t1299353653
+s2581
+i<Foundation/Foundation.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/CDataScanner.m
+c000000004D72903500000000000020A7
+t1299353653
+s8359
+i"CDataScanner.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/CJSONDeserializer.h
+c000000004D72903500000000000009F8
+t1299353653
+s2552
+i<Foundation/Foundation.h>
+i"CJSONScanner.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/CJSONDeserializer.m
+c000000004D729035000000000000105F
+t1299353653
+s4191
+i"CJSONDeserializer.h"
+i"CJSONScanner.h"
+i"CDataScanner.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/CJSONScanner.h
+c000000004D7290350000000000000F59
+t1299353653
+s3929
+i"CDataScanner.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/CJSONScanner.m
+c000000004D729035000000000000621C
+t1299353653
+s25116
+i"CJSONScanner.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/CJSONSerializer.h
+c000000004D729035000000000000086E
+t1299353653
+s2158
+i<Foundation/Foundation.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/CJSONSerializer.m
+c000000004D72903500000000000027B1
+t1299353653
+s10161
+i"CJSONSerializer.h"
+i"JSONRepresentation.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/audienceAppDelegate.h
+c000000004D77CD4F000000000000013A
+t1299696975
+s314
+i<UIKit/UIKit.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/audienceAppDelegate.m
+c000000004D782A910000000000000A8D
+t1299720849
+s2701
+i"audienceAppDelegate.h"
+i"login.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/full_release.h
+c000000004D79D2640000000000000199
+t1299829348
+s409
+i<UIKit/UIKit.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/full_release.m
+c000000004D79D2900000000000000DCF
+t1299829392
+s3535
+i"full_release.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/full_release.xib
+c000000004D7990640000000000005D78
+t1299812452
+s23928
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.h
+c000000004D79837700000000000000F1
+t1299809143
+s241
+i<UIKit/UIKit.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.m
+c000000004D798AF700000000000007AF
+t1299811063
+s1967
+i"info_usage.h"
+i"ASIFormDataRequest.h"
+i"terms.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.xib
+c000000004D798A280000000000005315
+t1299810856
+s21269
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/login.h
+c000000004D79505400000000000001D5
+t1299796052
+s469
+i<UIKit/UIKit.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/login.m
+c000000004D797F9C00000000000017B6
+t1299808156
+s6070
+i"login.h"
+i"ASIFormDataRequest.h"
+i<CommonCrypto/CommonDigest.h>
+i"CJSONDeserializer.h"
+i"info_usage.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/login.xib
+c000000004D7970120000000000009094
+t1299804178
+s37012
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/terms.h
+c000000004D79D0EC00000000000001B8
+t1299828972
+s440
+i<UIKit/UIKit.h>
+i"full_release.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/terms.m
+c000000004D7A67CB000000000000057A
+t1299867595
+s1402
+i"terms.h"
+i"full_release.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/Classes/terms.xib
+c000000004D79CA9F00000000000099D0
+t1299827359
+s39376
+
+N/Users/andy/Documents/Cornell IDL/audience/Extensions/CDataScanner_Extensions.h
+c000000004D72903500000000000005FB
+t1299353653
+s1531
+i"CDataScanner.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/Extensions/CDataScanner_Extensions.m
+c000000004D7290350000000000001305
+t1299353653
+s4869
+i"CDataScanner_Extensions.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/Extensions/NSDictionary_JSONExtensions.h
+c000000004D72903500000000000005E6
+t1299353653
+s1510
+i<Foundation/Foundation.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/Extensions/NSDictionary_JSONExtensions.m
+c000000004D7290350000000000000703
+t1299353653
+s1795
+i"NSDictionary_JSONExtensions.h"
+i"CJSONDeserializer.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/JSON/CDataScanner.h
+c000000004D3B6469000000000000095B
+t1295737961
+s2395
+i<Foundation/Foundation.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/JSON/CDataScanner.m
+c000000004D3B64690000000000001637
+t1295737961
+s5687
+i"CDataScanner.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDataSerializer.h
+c000000004D3B646900000000000007B8
+t1295737961
+s1976
+i<Foundation/Foundation.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDataSerializer.m
+c000000004D3B64690000000000001EF3
+t1295737961
+s7923
+i"CJSONDataSerializer.h"
+i"CSerializedJSONData.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDeserializer.h
+c000000004D72903500000000000009F8
+t1299353653
+s2552
+i<Foundation/Foundation.h>
+i"CJSONScanner.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDeserializer.m
+c000000004D729035000000000000105F
+t1299353653
+s4191
+i"CJSONDeserializer.h"
+i"CJSONScanner.h"
+i"CDataScanner.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONScanner.h
+c000000004D7290350000000000000F59
+t1299353653
+s3929
+i"CDataScanner.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONScanner.m
+c000000004D729035000000000000621C
+t1299353653
+s25116
+i"CJSONScanner.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONSerializer.h
+c000000004D729035000000000000086E
+t1299353653
+s2158
+i<Foundation/Foundation.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONSerializer.m
+c000000004D72903500000000000027B1
+t1299353653
+s10161
+i"CJSONSerializer.h"
+i"JSONRepresentation.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/JSON/CSerializedJSONData.h
+c000000004D3B646900000000000005A9
+t1295737961
+s1449
+i<Foundation/Foundation.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/JSON/CSerializedJSONData.m
+c000000004D3B646900000000000005FA
+t1295737961
+s1530
+i"CSerializedJSONData.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/JSON/JSONRepresentation.h
+c000000004D7290350000000000000148
+t1299353653
+s328
+i<Foundation/Foundation.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/JSONRepresentation.h
+c000000004D7290350000000000000148
+t1299353653
+s328
+i<Foundation/Foundation.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/MainWindow.xib
+c000000004D77D1C60000000000004682
+t1299698118
+s18050
+
+N/Users/andy/Documents/Cornell IDL/audience/Reachability.h
+c000000004D70DA0D0000000000001D0E
+t1299241485
+s7438
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/Reachability.m
+c000000004D70DA0D0000000000005E0C
+t1299241485
+s24076
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/andy/Documents/Cornell IDL/audience/audience_Prefix.pch
+c000000004D77CD4F00000000000000B9
+t1299696975
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app
+t1299867605
+s306
+
+N/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app.dSYM
+t1299867605
+s102
+
+N/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/Info.plist
+t1299867601
+s632
+
+N/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/MainWindow.nib
+t1299867602
+s985
+
+N/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/PkgInfo
+t1299867601
+s8
+
+N/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/audience
+t1299867604
+s453444
+
+N/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/full_release.nib
+t1299812466
+s3604
+
+N/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/info_usage.nib
+t1299867602
+s1835
+
+N/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/login.nib
+t1299867602
+s3270
+
+N/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/terms.nib
+t1299867602
+s3793
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIAuthenticationDialog.o
+t1299867603
+s108260
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDataCompressor.o
+t1299867603
+s23364
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDataDecompressor.o
+t1299867603
+s23324
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDownloadCache.o
+t1299867603
+s61076
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIFormDataRequest.o
+t1299867603
+s47588
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIHTTPRequest.o
+t1299867604
+s503220
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIInputStream.o
+t1299867603
+s29124
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASINetworkQueue.o
+t1299867603
+s61392
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CDataScanner.o
+t1299867604
+s29676
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CDataScanner_Extensions.o
+t1299867604
+s15468
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONDataSerializer.o
+t1299799340
+s25392
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONDeserializer.o
+t1299867604
+s19220
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONScanner.o
+t1299867604
+s43948
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONSerializer.o
+t1299867604
+s23336
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CSerializedJSONData.o
+t1299799340
+s8052
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
+t1299867604
+s9424
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/Reachability.o
+t1299867603
+s33856
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/audience.LinkFileList
+c000000004D7A67D10000000000000B61
+t1299867601
+s2913
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/audienceAppDelegate.o
+t1299867603
+s51036
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/full_release.o
+t1299867604
+s47452
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/info_usage.o
+t1299867604
+s52628
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/login.o
+t1299867604
+s70764
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/main.o
+t1299867603
+s6312
+
+N/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/terms.o
+t1299867604
+s42404
+
+N/Users/andy/Documents/Cornell IDL/audience/main.m
+c000000004D77CD4F000000000000015A
+t1299696975
+s346
+i<UIKit/UIKit.h>
+
+N/var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch.gch
+t1299867603
+s15453392
+
+Naudience-Info.plist
+c000000004D7956DC00000000000003BE
+t1299797724
+s958
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321560401#321560401#0(0"0(0#1#0"8605994592#0"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIAuthenticationDialog.o "/Users/andy/Documents/Cornell IDL/audience/ASIAuthenticationDialog.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.410628
+e321560403.753624
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIAuthenticationDialog.o
+x/Users/andy/Documents/Cornell IDL/audience/ASIAuthenticationDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/andy/Documents/Cornell IDL/audience/ASIAuthenticationDialog.m321560403#321560403#0(0"0(0#0#68"/Users/andy/Documents/Cornell IDL/audience/ASIAuthenticationDialog.m8603351712#2100"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/ASIAuthenticationDialog.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIAuthenticationDialog.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDataCompressor.o "/Users/andy/Documents/Cornell IDL/audience/ASIDataCompressor.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.411999
+e321560403.625608
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDataCompressor.o
+x/Users/andy/Documents/Cornell IDL/audience/ASIDataCompressor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/andy/Documents/Cornell IDL/audience/ASIDataCompressor.m321560403#321560403#0(0"0(0#0#62"/Users/andy/Documents/Cornell IDL/audience/ASIDataCompressor.m8600772160#2088"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/ASIDataCompressor.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDataCompressor.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDataDecompressor.o "/Users/andy/Documents/Cornell IDL/audience/ASIDataDecompressor.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.501558
+e321560403.631820
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDataDecompressor.o
+x/Users/andy/Documents/Cornell IDL/audience/ASIDataDecompressor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/andy/Documents/Cornell IDL/audience/ASIDataDecompressor.m321560403#321560403#0(0"0(0#0#64"/Users/andy/Documents/Cornell IDL/audience/ASIDataDecompressor.m8606384576#2092"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/ASIDataDecompressor.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDataDecompressor.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDownloadCache.o "/Users/andy/Documents/Cornell IDL/audience/ASIDownloadCache.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.596723
+e321560403.822107
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDownloadCache.o
+x/Users/andy/Documents/Cornell IDL/audience/ASIDownloadCache.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/andy/Documents/Cornell IDL/audience/ASIDownloadCache.m321560403#321560403#0(0"0(0#0#61"/Users/andy/Documents/Cornell IDL/audience/ASIDownloadCache.m8605979520#2086"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/ASIDownloadCache.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIDownloadCache.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIFormDataRequest.o "/Users/andy/Documents/Cornell IDL/audience/ASIFormDataRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.625768
+e321560403.792868
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIFormDataRequest.o
+x/Users/andy/Documents/Cornell IDL/audience/ASIFormDataRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/andy/Documents/Cornell IDL/audience/ASIFormDataRequest.m321560403#321560403#0(0"0(0#0#63"/Users/andy/Documents/Cornell IDL/audience/ASIFormDataRequest.m8605752896#2090"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/ASIFormDataRequest.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIFormDataRequest.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIHTTPRequest.o "/Users/andy/Documents/Cornell IDL/audience/ASIHTTPRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.631979
+e321560404.738254
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIHTTPRequest.o
+x/Users/andy/Documents/Cornell IDL/audience/ASIHTTPRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/andy/Documents/Cornell IDL/audience/ASIHTTPRequest.m321560403#321560404#0(0"0(0#0#59"/Users/andy/Documents/Cornell IDL/audience/ASIHTTPRequest.m8604438592#2082"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/ASIHTTPRequest.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIHTTPRequest.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIInputStream.o "/Users/andy/Documents/Cornell IDL/audience/ASIInputStream.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.753772
+e321560403.877712
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIInputStream.o
+x/Users/andy/Documents/Cornell IDL/audience/ASIInputStream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/andy/Documents/Cornell IDL/audience/ASIInputStream.m321560403#321560403#0(0"0(0#0#59"/Users/andy/Documents/Cornell IDL/audience/ASIInputStream.m8603744736#2082"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/ASIInputStream.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASIInputStream.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASINetworkQueue.o "/Users/andy/Documents/Cornell IDL/audience/ASINetworkQueue.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.793032
+e321560403.977351
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASINetworkQueue.o
+x/Users/andy/Documents/Cornell IDL/audience/ASINetworkQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/andy/Documents/Cornell IDL/audience/ASINetworkQueue.m321560403#321560403#0(0"0(0#0#60"/Users/andy/Documents/Cornell IDL/audience/ASINetworkQueue.m8606644704#2084"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/ASINetworkQueue.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/ASINetworkQueue.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CDataScanner.o "/Users/andy/Documents/Cornell IDL/audience/CDataScanner.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.977493
+e321560404.156184
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CDataScanner.o
+x/Users/andy/Documents/Cornell IDL/audience/CDataScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/andy/Documents/Cornell IDL/audience/CDataScanner.m321560403#321560404#0(0"0(0#0#57"/Users/andy/Documents/Cornell IDL/audience/CDataScanner.m8605771616#2078"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/CDataScanner.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CDataScanner.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CDataScanner.o "/Users/andy/Documents/Cornell IDL/audience/JSON/CDataScanner.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321492140.186406
+e321492140.339382
+r0
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CDataScanner.o
+x/Users/andy/Documents/Cornell IDL/audience/JSON/CDataScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/andy/Documents/Cornell IDL/audience/JSON/CDataScanner.m:32:36: error: CDataScanner_Extensions.h: No such file or directory
+lSLF07#2@70"Compile /Users/andy/Documents/Cornell IDL/audience/JSON/CDataScanner.m321492140#321492140#0(130"/Users/andy/Documents/Cornell IDL/audience/JSON/CDataScanner.m:32:36: error: CDataScanner_Extensions.h: No such file or directory1(4@52"CDataScanner_Extensions.h: No such file or directory321492140#0#130#0(6@62"/Users/andy/Documents/Cornell IDL/audience/JSON/CDataScanner.m317430761#32#0#32#0#28"*: No such file or directory0(0#0#62"/Users/andy/Documents/Cornell IDL/audience/JSON/CDataScanner.m8601307296#2083"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/JSON/CDataScanner.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CDataScanner.o"1#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CDataScanner_Extensions.o "/Users/andy/Documents/Cornell IDL/audience/Extensions/CDataScanner_Extensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.984544
+e321560404.080835
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CDataScanner_Extensions.o
+x/Users/andy/Documents/Cornell IDL/audience/Extensions/CDataScanner_Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/andy/Documents/Cornell IDL/audience/Extensions/CDataScanner_Extensions.m321560403#321560404#0(0"0(0#0#79"/Users/andy/Documents/Cornell IDL/audience/Extensions/CDataScanner_Extensions.m8604379680#2111"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/Extensions/CDataScanner_Extensions.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CDataScanner_Extensions.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONDataSerializer.o "/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDataSerializer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321492140.289569
+e321492140.399529
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONDataSerializer.o
+x/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDataSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDataSerializer.m321492140#321492140#0(0"0(0#0#69"/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDataSerializer.m8621956768#2097"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDataSerializer.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONDataSerializer.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONDeserializer.o "/Users/andy/Documents/Cornell IDL/audience/CJSONDeserializer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321492656.459915
+e321492656.580663
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONDeserializer.o
+x/Users/andy/Documents/Cornell IDL/audience/CJSONDeserializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/andy/Documents/Cornell IDL/audience/CJSONDeserializer.m321492656#321492656#0(0"0(0#0#62"/Users/andy/Documents/Cornell IDL/audience/CJSONDeserializer.m8615985056#2088"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/CJSONDeserializer.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONDeserializer.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONDeserializer.o "/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDeserializer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560404.080976
+e321560404.179354
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONDeserializer.o
+x/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDeserializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDeserializer.m321560404#321560404#0(0"0(0#0#67"/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDeserializer.m8603650304#2093"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONDeserializer.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONDeserializer.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONScanner.o "/Users/andy/Documents/Cornell IDL/audience/CJSONScanner.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321492675.059294
+e321492675.210033
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONScanner.o
+x/Users/andy/Documents/Cornell IDL/audience/CJSONScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/andy/Documents/Cornell IDL/audience/CJSONScanner.m321492675#321492675#0(0"0(0#0#57"/Users/andy/Documents/Cornell IDL/audience/CJSONScanner.m8601695776#2078"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/CJSONScanner.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONScanner.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONScanner.o "/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONScanner.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560404.144888
+e321560404.319716
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONScanner.o
+x/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/andy/Documents/Cornell IDL/audience/JSON/CJSONScanner.m321560404#321560404#0(0"0(0#0#62"/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONScanner.m8606411008#2083"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONScanner.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONScanner.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONSerializer.o "/Users/andy/Documents/Cornell IDL/audience/CJSONSerializer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321492656.462891
+e321492656.594081
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONSerializer.o
+x/Users/andy/Documents/Cornell IDL/audience/CJSONSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/andy/Documents/Cornell IDL/audience/CJSONSerializer.m321492656#321492656#0(0"0(0#0#60"/Users/andy/Documents/Cornell IDL/audience/CJSONSerializer.m8611450848#2084"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/CJSONSerializer.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONSerializer.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONSerializer.o "/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONSerializer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560404.156340
+e321560404.269970
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONSerializer.o
+x/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/andy/Documents/Cornell IDL/audience/JSON/CJSONSerializer.m321560404#321560404#0(0"0(0#0#65"/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONSerializer.m8606228992#2089"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/JSON/CJSONSerializer.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CJSONSerializer.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CSerializedJSONData.o "/Users/andy/Documents/Cornell IDL/audience/JSON/CSerializedJSONData.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321492140.306268
+e321492140.379100
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CSerializedJSONData.o
+x/Users/andy/Documents/Cornell IDL/audience/JSON/CSerializedJSONData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/andy/Documents/Cornell IDL/audience/JSON/CSerializedJSONData.m321492140#321492140#0(0"0(0#0#69"/Users/andy/Documents/Cornell IDL/audience/JSON/CSerializedJSONData.m8620871520#2097"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/JSON/CSerializedJSONData.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/CSerializedJSONData.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/NSDictionary_JSONExtensions.o "/Users/andy/Documents/Cornell IDL/audience/Extensions/NSDictionary_JSONExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560404.058477
+e321560404.144739
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
+x/Users/andy/Documents/Cornell IDL/audience/Extensions/NSDictionary_JSONExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/andy/Documents/Cornell IDL/audience/Extensions/NSDictionary_JSONExtensions.m321560404#321560404#0(0"0(0#0#83"/Users/andy/Documents/Cornell IDL/audience/Extensions/NSDictionary_JSONExtensions.m8603339904#2119"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/Extensions/NSDictionary_JSONExtensions.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/NSDictionary_JSONExtensions.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/Reachability.o "/Users/andy/Documents/Cornell IDL/audience/Reachability.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.822264
+e321560403.984386
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/Reachability.o
+x/Users/andy/Documents/Cornell IDL/audience/Reachability.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/andy/Documents/Cornell IDL/audience/Reachability.m321560403#321560403#0(0"0(0#0#57"/Users/andy/Documents/Cornell IDL/audience/Reachability.m8606472096#2078"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/Reachability.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/Reachability.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/audienceAppDelegate.o "/Users/andy/Documents/Cornell IDL/audience/Classes/audienceAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.409430
+e321560403.596556
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/audienceAppDelegate.o
+x/Users/andy/Documents/Cornell IDL/audience/Classes/audienceAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/andy/Documents/Cornell IDL/audience/Classes/audienceAppDelegate.m321560403#321560403#0(0"0(0#0#72"/Users/andy/Documents/Cornell IDL/audience/Classes/audienceAppDelegate.m8603858624#2100"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/Classes/audienceAppDelegate.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/audienceAppDelegate.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/full_release.o "/Users/andy/Documents/Cornell IDL/audience/Classes/full_release.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560404.302997
+e321560404.397717
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/full_release.o
+x/Users/andy/Documents/Cornell IDL/audience/Classes/full_release.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/andy/Documents/Cornell IDL/audience/Classes/full_release.m321560404#321560404#0(0"0(0#0#65"/Users/andy/Documents/Cornell IDL/audience/Classes/full_release.m8606584704#2086"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/Classes/full_release.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/full_release.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/info_usage.o "/Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560404.179528
+e321560404.302845
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/info_usage.o
+x/Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.m321560404#321560404#0(0"0(0#0#63"/Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.m8606033504#2082"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/info_usage.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/login.o "/Users/andy/Documents/Cornell IDL/audience/Classes/login.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.877874
+e321560404.058325
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/login.o
+x/Users/andy/Documents/Cornell IDL/audience/Classes/login.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/andy/Documents/Cornell IDL/audience/Classes/login.m321560403#321560404#0(0"0(0#0#58"/Users/andy/Documents/Cornell IDL/audience/Classes/login.m8606205504#2072"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/Classes/login.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/login.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/main.o "/Users/andy/Documents/Cornell IDL/audience/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560403.408291
+e321560403.501408
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/main.o
+x/Users/andy/Documents/Cornell IDL/audience/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/andy/Documents/Cornell IDL/audience/main.m321560403#321560403#0(0"0(0#0#49"/Users/andy/Documents/Cornell IDL/audience/main.m8606630272#2062"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/main.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/terms.o "/Users/andy/Documents/Cornell IDL/audience/Classes/terms.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560404.270128
+e321560404.374721
+r1
+xCompileC
+xbuild/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/terms.o
+x/Users/andy/Documents/Cornell IDL/audience/Classes/terms.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/andy/Documents/Cornell IDL/audience/Classes/terms.m321560404#321560404#0(0"0(0#0#58"/Users/andy/Documents/Cornell IDL/audience/Classes/terms.m8605774656#2072"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -include /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch -c "/Users/andy/Documents/Cornell IDL/audience/Classes/terms.m" -o "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/terms.o"0#
+
+CCompileXIB "/Users/andy/Documents/Cornell IDL/audience/Classes/full_release.xib"
+s321505265.858109
+e321505266.270341
+r1
+xCompileXIB
+x/Users/andy/Documents/Cornell IDL/audience/Classes/full_release.xib
+lSLF07#2@35"CompileXIB Classes/full_release.xib321505265#321505266#0(0"0(0#0#67"/Users/andy/Documents/Cornell IDL/audience/Classes/full_release.xib8652000672#663"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/full_release.nib" "/Users/andy/Documents/Cornell IDL/audience/Classes/full_release.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.xib"
+s321560401.902437
+e321560402.475361
+r1
+xCompileXIB
+x/Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.xib
+lSLF07#2@33"CompileXIB Classes/info_usage.xib321560401#321560402#0(0"0(0#0#65"/Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.xib8603028384#659"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/info_usage.nib" "/Users/andy/Documents/Cornell IDL/audience/Classes/info_usage.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/andy/Documents/Cornell IDL/audience/Classes/login.xib"
+s321560401.899666
+e321560402.604254
+r1
+xCompileXIB
+x/Users/andy/Documents/Cornell IDL/audience/Classes/login.xib
+lSLF07#2@28"CompileXIB Classes/login.xib321560401#321560402#0(0"0(0#0#60"/Users/andy/Documents/Cornell IDL/audience/Classes/login.xib8603400288#649"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/login.nib" "/Users/andy/Documents/Cornell IDL/audience/Classes/login.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/andy/Documents/Cornell IDL/audience/Classes/terms.xib"
+s321560401.904157
+e321560402.578105
+r1
+xCompileXIB
+x/Users/andy/Documents/Cornell IDL/audience/Classes/terms.xib
+lSLF07#2@28"CompileXIB Classes/terms.xib321560401#321560402#0(0"0(0#0#60"/Users/andy/Documents/Cornell IDL/audience/Classes/terms.xib8600894624#649"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/terms.nib" "/Users/andy/Documents/Cornell IDL/audience/Classes/terms.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/andy/Documents/Cornell IDL/audience/MainWindow.xib"
+s321560401.891442
+e321560402.453378
+r1
+xCompileXIB
+x/Users/andy/Documents/Cornell IDL/audience/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321560401#321560402#0(0"0(0#0#57"/Users/andy/Documents/Cornell IDL/audience/MainWindow.xib8603834528#651"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/MainWindow.nib" "/Users/andy/Documents/Cornell IDL/audience/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app.dSYM" "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/audience"
+s321560404.963824
+e321560405.020456
+r1
+xGenerateDSYMFile
+x/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app.dSYM
+x/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/audience
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/audience.app.dSYM build/Debug-iphonesimulator/audience.app/audience321560404#321560405#0(0"0(0#0#92"/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/audience8606226816#466"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/audience" -o "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app.dSYM"0#
+
+CLd "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/audience" normal i386
+s321560404.738368
+e321560404.963571
+r1
+xLd
+x/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/audience
+xnormal
+xi386
+lSLF07#2@97"Link /Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/audience321560404#321560404#0(0"0(0#0#0"8604181056#1089"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" -filelist "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/Objects-normal/i386/audience.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CFNetwork -framework SystemConfiguration -framework MobileCoreServices -lz.1.2.3 -o "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/audience"0#
+
+CProcessInfoPlistFile "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/Info.plist" audience-Info.plist
+s321560401.886691
+e321560401.891318
+r1
+xProcessInfoPlistFile
+x/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/Info.plist
+xaudience-Info.plist
+lSLF07#2@27"Process audience-Info.plist321560401#321560401#0(0"0(0#0#62"/Users/andy/Documents/Cornell IDL/audience/audience-Info.plist8461535219242921984#562"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility audience-Info.plist -genpkginfo "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app/Info.plist"0#
+
+CProcessPCH /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch.gch audience_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321560402.604422
+e321560403.408098
+r1
+xProcessPCH
+x/var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch.gch
+xaudience_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile audience_Prefix.pch321560402#321560403#0(0"0(0#0#62"/Users/andy/Documents/Cornell IDL/audience/audience_Prefix.pch8604568352#1947"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-generated-files.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-own-target-headers.hmap" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-all-target-headers.hmap" -iquote "/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/audience-project-headers.hmap" "-F/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator" "-I/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/include" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources/i386" "-I/Users/andy/Documents/Cornell IDL/audience/build/audience.build/Debug-iphonesimulator/audience.build/DerivedSources" -c "/Users/andy/Documents/Cornell IDL/audience/audience_Prefix.pch" -o /var/folders/Zo/ZomaCpA9FCexU5V8M70LV++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/audience_Prefix-cknucdibwvoinlavpwsfpevjnimh/audience_Prefix.pch.gch0#
+
+CTouch "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app"
+s321560405.020629
+e321560405.023972
+r1
+xTouch
+x/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app
+lSLF07#2@89"Touch /Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app321560405#321560405#0(0"0(0#0#0"8604600352#353"    cd "/Users/andy/Documents/Cornell IDL/audience"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/andy/Documents/Cornell IDL/audience/build/Debug-iphonesimulator/audience.app"0#
+
