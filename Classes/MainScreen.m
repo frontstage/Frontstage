@@ -8,6 +8,7 @@
 
 #import "MainScreen.h"
 #import "wordcloud.h"
+#import "SelectPhoto.h"
 
 
 @implementation MainScreen
@@ -54,7 +55,13 @@
 		[wc setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
 		[self presentModalViewController:wc animated:YES];
 		[wc release];
-	}
+	} else if ([[features objectAtIndex:indexPath.row] isEqualToString:@"clicker"]) {
+        SelectPhoto *sp = [[SelectPhoto alloc] initWithNibName:@"SelectPhoto" bundle:nil];
+        [sp setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+        [self presentModalViewController:sp animated:YES];
+        [sp release];
+        
+    }
 }
 
 - (void)didReceiveMemoryWarning {

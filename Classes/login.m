@@ -126,7 +126,7 @@
 	} else { // user has already agreed to the terms
 		// go to main view with features
 		MainScreen *ms = [[MainScreen alloc] initWithNibName:@"MainScreen" bundle:nil];
-		ms.features = [[NSMutableArray alloc] initWithObjects:@"wordcloud",nil];
+		ms.features = [[NSMutableArray alloc] initWithObjects:@"wordcloud",@"clicker",nil];
 		[ms setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
 		[self presentModalViewController:ms animated:YES];
 		[ms release];

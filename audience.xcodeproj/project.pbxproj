@@ -43,6 +43,10 @@
 		A1D575C61328064E00BCFC42 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D575C51328064E00BCFC42 /* libz.1.2.3.dylib */; };
 		A1D575D11328090D00BCFC42 /* login.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D575CF1328090D00BCFC42 /* login.m */; };
 		A1D575D21328090D00BCFC42 /* login.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1D575D01328090D00BCFC42 /* login.xib */; };
+		A1F39AE31352BF6900CD6928 /* PAMCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F39AE21352BF6800CD6928 /* PAMCell.m */; };
+		A1F39AE61352BFA700CD6928 /* SelectPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F39AE51352BFA700CD6928 /* SelectPhoto.m */; };
+		A1F39AE81352C38000CD6928 /* SelectPhoto.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F39AE71352C38000CD6928 /* SelectPhoto.xib */; };
+		A1F39AF11352C41E00CD6928 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F39AF01352C41E00CD6928 /* AsyncImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +116,13 @@
 		A1D575CE1328090D00BCFC42 /* login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = login.h; sourceTree = "<group>"; };
 		A1D575CF1328090D00BCFC42 /* login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = login.m; sourceTree = "<group>"; };
 		A1D575D01328090D00BCFC42 /* login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = login.xib; path = Classes/login.xib; sourceTree = "<group>"; };
+		A1F39AE11352BF6800CD6928 /* PAMCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAMCell.h; sourceTree = "<group>"; };
+		A1F39AE21352BF6800CD6928 /* PAMCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAMCell.m; sourceTree = "<group>"; };
+		A1F39AE41352BFA600CD6928 /* SelectPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPhoto.h; sourceTree = "<group>"; };
+		A1F39AE51352BFA700CD6928 /* SelectPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPhoto.m; sourceTree = "<group>"; };
+		A1F39AE71352C38000CD6928 /* SelectPhoto.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectPhoto.xib; sourceTree = "<group>"; };
+		A1F39AEF1352C41D00CD6928 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		A1F39AF01352C41E00CD6928 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +146,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A1F39AEF1352C41D00CD6928 /* AsyncImageView.h */,
+				A1F39AF01352C41E00CD6928 /* AsyncImageView.m */,
+				A1F39AE41352BFA600CD6928 /* SelectPhoto.h */,
+				A1F39AE51352BFA700CD6928 /* SelectPhoto.m */,
+				A1F39AE11352BF6800CD6928 /* PAMCell.h */,
+				A1F39AE21352BF6800CD6928 /* PAMCell.m */,
 				A1CF2D2F132E921D0085794D /* wordcloud.h */,
 				A1CF2D30132E921D0085794D /* wordcloud.m */,
 				1D3623240D0F684500981E51 /* audienceAppDelegate.h */,
@@ -194,6 +211,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A1F39AE71352C38000CD6928 /* SelectPhoto.xib */,
 				A1CF2D31132E921D0085794D /* wordcloud.xib */,
 				A1CF2CD0132E8AE20085794D /* MainScreen.xib */,
 				A16660921329BDB600B439F2 /* terms.xib */,
@@ -324,6 +342,7 @@
 				A16660941329BDB600B439F2 /* terms.xib in Resources */,
 				A1CF2CD2132E8AE20085794D /* MainScreen.xib in Resources */,
 				A1CF2D33132E921D0085794D /* wordcloud.xib in Resources */,
+				A1F39AE81352C38000CD6928 /* SelectPhoto.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +376,9 @@
 				A16661491329C76100B439F2 /* full_release.m in Sources */,
 				A1CF2CD1132E8AE20085794D /* MainScreen.m in Sources */,
 				A1CF2D32132E921D0085794D /* wordcloud.m in Sources */,
+				A1F39AE31352BF6900CD6928 /* PAMCell.m in Sources */,
+				A1F39AE61352BFA700CD6928 /* SelectPhoto.m in Sources */,
+				A1F39AF11352C41E00CD6928 /* AsyncImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +420,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
@@ -411,6 +434,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;

@@ -39,6 +39,14 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
 											   initWithBarButtonSystemItem:UIBarButtonSystemItemDone
 											   target:self action:@selector(submit)];
 	[super.navigationItem.rightBarButtonItem release];
+    
+    // populate date with device date
+    NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];
+    [dateFormatter setDateStyle:NSDateFormatterShortStyle];
+    NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
+    [date setText:dateString];
+    
+    
 }
 
 - (IBAction) toRelease {
@@ -69,7 +77,7 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
 		// go to main view with features
 		//[self dismissModalViewControllerAnimated:YES];
 		MainScreen *ms = [[MainScreen alloc] initWithNibName:@"MainScreen" bundle:nil];
-		ms.features = [[NSMutableArray alloc] initWithObjects:@"wordcloud",nil];
+		ms.features = [[NSMutableArray alloc] initWithObjects:@"wordcloud",@"clicker",nil];
 		[ms setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
 		[self presentModalViewController:ms animated:YES];
 		[ms release];
@@ -127,7 +135,7 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
 
 - (BOOL) textFieldShouldReturn:(UITextField *)textField {
 	if (textField == name) {
-		[date becomeFirstResponder];
+		[email becomeFirstResponder];
 	} else if (textField == date) {
 		[email becomeFirstResponder];
 	} else {
