@@ -46,6 +46,7 @@
 			'$session_id'
 		)");
 		if ($new) {
+		$retval= mysql_query("SELECT * FROM users WHERE username= '$username' AND password = '$password' AND session_id = '$session_id'");
 		$array = array();
 		while ($row = mysql_fetch_assoc($retval)) {
 			$array[]= $row;
@@ -55,6 +56,7 @@
 		} else {
 			echo "ERROR:" . mysql_error();
 		}
+		
 	}
  
 	mysql_close($conn);
