@@ -23,7 +23,6 @@
 
 
 - (void)loadImageFromURL:(NSURL*)url forPath:(NSString*)path{
-	
 	if (![path isEqualToString:self.thePath]) {
 		// new image
 		self.image = nil;
@@ -31,7 +30,7 @@
 		// show indicator
 		if (indicator == nil) {
 			indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-			indicator.frame = CGRectMake((self.bounds.size.width - 20) / 2, (self.bounds.size.height - 20) / 2, 20, 20); 
+			indicator.frame = CGRectMake((self.bounds.size.width - 20) / 2, (self.bounds.size.height - 20) / 2, 20, 20);
 			[self addSubview: indicator];
 			[indicator startAnimating];
 		} else {

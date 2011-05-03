@@ -77,7 +77,15 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
 		// go to main view with features
 		//[self dismissModalViewControllerAnimated:YES];
 		MainScreen *ms = [[MainScreen alloc] initWithNibName:@"MainScreen" bundle:nil];
-		ms.features = [[NSMutableArray alloc] initWithObjects:@"wordcloud",@"clicker",nil];
+        NSMutableArray *features= [[[NSMutableArray alloc] init] autorelease];
+        if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"wordcloud"] isEqualToString:@"1"]) {
+            [features addObject:@"wordcloud"];
+        }
+        if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"clicker"] isEqualToString:@"1"]) {
+            [features addObject:@"clicker"];
+        }
+        
+		ms.features = features;
 		[ms setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
 		[self presentModalViewController:ms animated:YES];
 		[ms release];

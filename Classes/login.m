@@ -57,6 +57,9 @@
 			[[NSUserDefaults standardUserDefaults] setObject:session_id.text forKey:@"session_id"];
 			// store enabled feature fields
 			[[NSUserDefaults standardUserDefaults] setObject:[[resultsArray objectAtIndex:0] objectForKey:@"wordcloud"] forKey:@"wordcloud"];
+            [[NSUserDefaults standardUserDefaults] setObject:[[resultsArray objectAtIndex:0] objectForKey:@"clicker"] forKey:@"clicker"];
+            [[NSUserDefaults standardUserDefaults] setObject:[[resultsArray objectAtIndex:0] objectForKey:@"clicker_imageset"] forKey:@"clicker_imageset"];
+            [[NSUserDefaults standardUserDefaults] setObject:[[resultsArray objectAtIndex:0] objectForKey:@"clicker_numcols"] forKey:@"clicker_numcols"];
 			
 		} else { // session does not exist or any other problem occurred, show alert
 			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error"
@@ -126,7 +129,15 @@
 	} else { // user has already agreed to the terms
 		// go to main view with features
 		MainScreen *ms = [[MainScreen alloc] initWithNibName:@"MainScreen" bundle:nil];
-		ms.features = [[NSMutableArray alloc] initWithObjects:@"wordcloud",@"clicker",nil];
+        NSMutableArray *features= [[[NSMutableArray alloc] init] autorelease];
+        if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"wordcloud"] isEqualToString:@"1"]) {
+            [features addObject:@"wordcloud"];
+        }
+        if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"clicker"] isEqualToString:@"1"]) {
+            [features addObject:@"clicker"];
+        }
+            
+		ms.features = features;
 		[ms setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
 		[self presentModalViewController:ms animated:YES];
 		[ms release];

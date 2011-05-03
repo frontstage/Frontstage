@@ -11,10 +11,10 @@
 
 @interface SelectPhoto : UIViewController <UITableViewDelegate, UITableViewDataSource> {
 	IBOutlet UITableView *tableView;
-	NSMutableArray *dataArray;
+	NSArray *dataArray;
 }
 
-@property(nonatomic, retain) NSMutableArray *dataArray;
+@property(nonatomic, retain) NSArray *dataArray;
 
 -(IBAction) cancel;
 
