@@ -82,7 +82,7 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
             [features addObject:@"wordcloud"];
         }
         if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"clicker"] isEqualToString:@"1"]) {
-            [features addObject:@"clicker"];
+            [features addObject:@"photopicker"];
         }
         
 		ms.features = features;

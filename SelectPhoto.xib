@@ -75,7 +75,6 @@
 						<string key="NSFrameSize">{320, 44}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIBarStyle">2</int>
@@ -83,7 +82,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBUINavigationItem" id="328918245">
 								<reference key="IBUINavigationBar" ref="644791640"/>
-								<string key="IBUITitle">Frontstage Clicker</string>
+								<string key="IBUITitle">photopicker</string>
 								<object class="IBUIBarButtonItem" key="IBUIRightBarButtonItem" id="495483023">
 									<string key="IBUITitle">Back</string>
 									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>

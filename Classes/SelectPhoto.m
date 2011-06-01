@@ -24,7 +24,6 @@
 	[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackTranslucent];
 	
 	dataArray= [[NSArray alloc] initWithArray:[[[NSUserDefaults standardUserDefaults] objectForKey:@"clicker_imageset"] componentsSeparatedByString:@","]];
-    NSLog(@"%@",dataArray);
     [tableView reloadData];
 }
 
@@ -46,46 +45,102 @@
 	[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
 	
     // FOLLOWING CODE ASSUMES API OUTPUT CELL_ID IS IN ORDER!!!!!
-    
-	if (indexPath.row*4+0 < dataArray.count) {
-		cell.imageView1.tag = 999;
-		NSURL *url1 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row*4+0]]];
-		[cell.imageView1 loadImageFromURL:url1 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row*4+0]]];
-		cell.button1.tag = indexPath.row*4+1;
-		[cell.button1 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
-	}
-	if (indexPath.row*4+1 < dataArray.count) {
-		cell.imageView2.tag = 999;
-		NSURL *url2 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row*4+1]]];
-		[cell.imageView2 loadImageFromURL:url2 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row*4+1]]];
-		cell.button2.tag = indexPath.row*4+2;
-		[cell.button2 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
-	}
-	if (indexPath.row*4+2 < dataArray.count) {
-		cell.imageView3.tag = 999;
-		NSURL *url3 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row*4+2]]];
-		[cell.imageView3 loadImageFromURL:url3 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row*4+2]]];
-		cell.button3.tag = indexPath.row*4+3;
-		[cell.button3 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
-	}
-	if (indexPath.row*4+3 < dataArray.count) {
-		cell.imageView4.tag = 999;
-		NSURL *url4 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row*4+3]]];
-		[cell.imageView4 loadImageFromURL:url4 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row*4+3]]];
-		cell.button4.tag = indexPath.row*4+4;
-		[cell.button4 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
-	}
+    if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"clicker_numcols"] isEqualToString:@"4"]) {
+        if (indexPath.row*4+0 < dataArray.count) {
+            cell.imageView1.tag = 999;
+            NSURL *url1 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row*4+0]]];
+            [cell.imageView1 loadImageFromURL:url1 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row*4+0]]];
+            cell.button1.tag = indexPath.row*4+1;
+            [cell.button1 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
+        }
+        if (indexPath.row*4+1 < dataArray.count) {
+            cell.imageView2.tag = 999;
+            NSURL *url2 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row*4+1]]];
+            [cell.imageView2 loadImageFromURL:url2 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row*4+1]]];
+            cell.button2.tag = indexPath.row*4+2;
+            [cell.button2 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
+        }
+        if (indexPath.row*4+2 < dataArray.count) {
+            cell.imageView3.tag = 999;
+            NSURL *url3 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row*4+2]]];
+            [cell.imageView3 loadImageFromURL:url3 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row*4+2]]];
+            cell.button3.tag = indexPath.row*4+3;
+            [cell.button3 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
+        }
+        if (indexPath.row*4+3 < dataArray.count) {
+            cell.imageView4.tag = 999;
+            NSURL *url4 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row*4+3]]];
+            [cell.imageView4 loadImageFromURL:url4 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row*4+3]]];
+            cell.button4.tag = indexPath.row*4+4;
+            [cell.button4 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
+        }
+    } else if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"clicker_numcols"] isEqualToString:@"3"]) {
+        if (indexPath.row*3+0 < dataArray.count) {
+            cell.imageView1.tag = 999;
+            NSURL *url1 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row*3+0]]];
+            [cell.imageView1 loadImageFromURL:url1 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row*3+0]]];
+            cell.button1.tag = indexPath.row*3+1;
+            [cell.button1 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
+        }
+        if (indexPath.row*3+1 < dataArray.count) {
+            cell.imageView2.tag = 999;
+            NSURL *url2 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row*3+1]]];
+            [cell.imageView2 loadImageFromURL:url2 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row*3+1]]];
+            cell.button2.tag = indexPath.row*3+2;
+            [cell.button2 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
+        }
+        if (indexPath.row*3+2 < dataArray.count) {
+            cell.imageView3.tag = 999;
+            NSURL *url3 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row*3+2]]];
+            [cell.imageView3 loadImageFromURL:url3 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row*3+2]]];
+            cell.button3.tag = indexPath.row*3+3;
+            [cell.button3 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
+        }
+        [cell.imageView4 setHidden:YES];
+        [cell.button4 setHidden:YES];
+
+    } else if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"clicker_numcols"] isEqualToString:@"2"]) {
+        if (indexPath.row*2+0 < dataArray.count) {
+            cell.imageView2.tag = 999;
+            NSURL *url2 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row*2+0]]];
+            [cell.imageView2 loadImageFromURL:url2 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row*2+0]]];
+            cell.button2.tag = indexPath.row*2+1;
+            [cell.button2 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
+        }
+        if (indexPath.row*2+1 < dataArray.count) {
+            cell.imageView3.tag = 999;
+            NSURL *url3 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row*2+1]]];
+            [cell.imageView3 loadImageFromURL:url3 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row*2+1]]];
+            cell.button3.tag = indexPath.row*2+2;
+            [cell.button3 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
+        }
+        [cell.imageView4 setHidden:YES];
+        [cell.button4 setHidden:YES];
+        [cell.imageView1 setHidden:YES];
+        [cell.button1 setHidden:YES];
+    } else { // minimum= 1 column
+        if (indexPath.row < dataArray.count) {
+            cell.imageView3.tag = 999;
+            NSURL *url3 = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.cornellhci.org/frontstage-iOS/%@",[dataArray objectAtIndex:indexPath.row]]];
+            [cell.imageView3 loadImageFromURL:url3 forPath:[NSString stringWithFormat:@"%@",[dataArray objectAtIndex:indexPath.row]]];
+            cell.button3.tag = indexPath.row+1;
+            [cell.button3 addTarget:self action:@selector(photoSelected:) forControlEvents:UIControlEventTouchUpInside];
+        }
+        [cell.imageView4 setHidden:YES];
+        [cell.button4 setHidden:YES];
+        [cell.imageView1 setHidden:YES];
+        [cell.button1 setHidden:YES];
+        [cell.imageView2 setHidden:YES];
+        [cell.button2 setHidden:YES];
+    }
 	
 	return cell;
 	
 }
 
 - (NSInteger) tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section {
-	if (dataArray.count%4 == 0) {
-		return dataArray.count/4;
-	} else {
-		return dataArray.count/4+1;
-	}
+    double cols = [[[NSUserDefaults standardUserDefaults] objectForKey:@"clicker_numcols"] doubleValue];
+    return ceil(dataArray.count/cols);
 }
 
 - (void) photoSelected:(id)sender {

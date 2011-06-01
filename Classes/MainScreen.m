@@ -55,7 +55,7 @@
 		[wc setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
 		[self presentModalViewController:wc animated:YES];
 		[wc release];
-	} else if ([[features objectAtIndex:indexPath.row] isEqualToString:@"clicker"]) {
+	} else if ([[features objectAtIndex:indexPath.row] isEqualToString:@"photopicker"]) {
         SelectPhoto *sp = [[SelectPhoto alloc] initWithNibName:@"SelectPhoto" bundle:nil];
         [sp setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
         [self presentModalViewController:sp animated:YES];

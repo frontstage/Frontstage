@@ -126,7 +126,7 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
 	NSError *error;
 	CJSONDeserializer *jsonDeserializer = [CJSONDeserializer deserializer];
 	NSArray *resultsArray = [jsonDeserializer deserialize:response error:&error];
-	NSLog(@"%@",[httprequest responseString]);
+	//NSLog(@"%@",[httprequest responseString]);
 	wordArray = [[NSMutableArray alloc] initWithArray:resultsArray];
 	[table reloadData];
 	if ([wordArray count] >= 1) {
