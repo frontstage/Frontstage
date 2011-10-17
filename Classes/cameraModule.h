@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 
 
-@interface cameraModule : UIViewController {
-    
+@interface cameraModule : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate> {
+    IBOutlet UIImageView *thePicture;
+    UIImagePickerController *theCamera;
 }
+
+-(IBAction)backBtnPressed;
+-(IBAction)launchCamera;
 
 @end

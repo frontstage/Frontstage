@@ -9,6 +9,8 @@
 #import "MainScreen.h"
 #import "wordcloud.h"
 #import "SelectPhoto.h"
+#import "cameraModule.h"
+#import "voiceRecordModule.h"
 
 
 @implementation MainScreen
@@ -19,6 +21,11 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //[features addObject:@"camera"];
+    //[features addObject:@"voicerecord"];
+}
+-(void)viewWillAppear:(BOOL)animated{
+    [table reloadData];
 }
 
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -30,10 +37,9 @@
 }
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	if (indexPath.row < features.count) {
-		static NSString *cellIdentifier = @"featureCell";
-		
-		UITableViewCell *cell = (UITableViewCell *) [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+	static NSString *cellIdentifier = @"featureCell";
+    UITableViewCell *cell = (UITableViewCell *) [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (indexPath.row < features.count) {
 		
 		if (cell == nil) {
 			
@@ -45,8 +51,8 @@
 		
 		cell.textLabel.text = [features objectAtIndex:indexPath.row];
 		
-		return cell;
 	}
+    return cell;
 }	
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -61,12 +67,25 @@
         [self presentModalViewController:sp animated:YES];
         [sp release];
         
+    } else if ([[features objectAtIndex:indexPath.row] isEqualToString:@"camera"]){
+        cameraModule *c = [[cameraModule alloc]initWithNibName:@"cameraModule" bundle:nil];
+        [c setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+        [self presentModalViewController:c animated:YES];
+        [c release];
+    }else if([[features objectAtIndex:indexPath.row] isEqualToString:@"voicerecord"]){
+        voiceRecordModule *v = [[voiceRecordModule alloc]initWithNibName:@"voiceRecordModule" bundle:nil];
+        [v setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+        [self presentModalViewController:v animated:YES];
+        [v release];
     }
 }
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
+    
+    //WHICH IS BAD FOR NOW!!
+    
+    //[super didReceiveMemoryWarning];
     
     // Release any cached data, images, etc. that aren't in use.
 }

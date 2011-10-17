@@ -60,6 +60,8 @@
             [[NSUserDefaults standardUserDefaults] setObject:[[resultsArray objectAtIndex:0] objectForKey:@"clicker"] forKey:@"clicker"];
             [[NSUserDefaults standardUserDefaults] setObject:[[resultsArray objectAtIndex:0] objectForKey:@"clicker_imageset"] forKey:@"clicker_imageset"];
             [[NSUserDefaults standardUserDefaults] setObject:[[resultsArray objectAtIndex:0] objectForKey:@"clicker_numcols"] forKey:@"clicker_numcols"];
+            [[NSUserDefaults standardUserDefaults] setObject:[[resultsArray objectAtIndex:0] objectForKey:@"camera_enable"] forKey:@"camera_enable"];
+            [[NSUserDefaults standardUserDefaults] setObject:[[resultsArray objectAtIndex:0] objectForKey:@"audio_enable"] forKey:@"audio_enable"];
 			
 		} else { // session does not exist or any other problem occurred, show alert
 			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error"
@@ -135,6 +137,12 @@
         }
         if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"clicker"] isEqualToString:@"1"]) {
             [features addObject:@"photopicker"];
+        }
+        if([[[NSUserDefaults standardUserDefaults] objectForKey:@"camera_enable"] isEqualToString:@"1"]){
+            [features addObject:@"camera"];
+        }
+        if([[[NSUserDefaults standardUserDefaults] objectForKey:@"audio_enable"] isEqualToString:@"1"]){
+            [features addObject:@"voicerecord"];
         }
             
 		ms.features = features;

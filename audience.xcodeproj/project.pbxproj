@@ -13,6 +13,11 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		6B80F56D1432DE0E004E12DA /* cameraModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B80F56B1432DE0E004E12DA /* cameraModule.m */; };
+		6B80F56E1432DE0E004E12DA /* cameraModule.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B80F56C1432DE0E004E12DA /* cameraModule.xib */; };
+		6B80F5731432E84F004E12DA /* voiceRecordModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B80F5711432E84E004E12DA /* voiceRecordModule.m */; };
+		6B80F5741432E84F004E12DA /* voiceRecordModule.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B80F5721432E84F004E12DA /* voiceRecordModule.xib */; };
+		6B80F5761432EDC7004E12DA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B80F5751432EDC7004E12DA /* AVFoundation.framework */; };
 		A1665E8D1329985800B439F2 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A1665E7F1329985800B439F2 /* CDataScanner.m */; };
 		A1665E8E1329985800B439F2 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A1665E821329985800B439F2 /* CDataScanner_Extensions.m */; };
 		A1665E8F1329985800B439F2 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A1665E841329985800B439F2 /* NSDictionary_JSONExtensions.m */; };
@@ -59,6 +64,13 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* audience_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audience_Prefix.pch; sourceTree = "<group>"; };
+		6B80F56A1432DE0E004E12DA /* cameraModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cameraModule.h; sourceTree = "<group>"; };
+		6B80F56B1432DE0E004E12DA /* cameraModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cameraModule.m; sourceTree = "<group>"; };
+		6B80F56C1432DE0E004E12DA /* cameraModule.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cameraModule.xib; sourceTree = "<group>"; };
+		6B80F5701432E84E004E12DA /* voiceRecordModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voiceRecordModule.h; sourceTree = "<group>"; };
+		6B80F5711432E84E004E12DA /* voiceRecordModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = voiceRecordModule.m; sourceTree = "<group>"; };
+		6B80F5721432E84F004E12DA /* voiceRecordModule.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = voiceRecordModule.xib; sourceTree = "<group>"; };
+		6B80F5751432EDC7004E12DA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* audience-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "audience-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		A1665E7E1329985800B439F2 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
 		A1665E7F1329985800B439F2 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
@@ -130,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B80F5761432EDC7004E12DA /* AVFoundation.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -148,24 +161,30 @@
 			children = (
 				A1F39AEF1352C41D00CD6928 /* AsyncImageView.h */,
 				A1F39AF01352C41E00CD6928 /* AsyncImageView.m */,
-				A1F39AE41352BFA600CD6928 /* SelectPhoto.h */,
-				A1F39AE51352BFA700CD6928 /* SelectPhoto.m */,
 				A1F39AE11352BF6800CD6928 /* PAMCell.h */,
 				A1F39AE21352BF6800CD6928 /* PAMCell.m */,
-				A1CF2D2F132E921D0085794D /* wordcloud.h */,
-				A1CF2D30132E921D0085794D /* wordcloud.m */,
 				1D3623240D0F684500981E51 /* audienceAppDelegate.h */,
 				1D3623250D0F684500981E51 /* audienceAppDelegate.m */,
 				A1665ECB1329A3C400B439F2 /* info_usage.h */,
 				A1665ECC1329A3C400B439F2 /* info_usage.m */,
-				A16660901329BDB600B439F2 /* terms.h */,
-				A16660911329BDB600B439F2 /* terms.m */,
 				A16661461329C76100B439F2 /* full_release.h */,
 				A16661471329C76100B439F2 /* full_release.m */,
 				A1D575CE1328090D00BCFC42 /* login.h */,
 				A1D575CF1328090D00BCFC42 /* login.m */,
+				A16660901329BDB600B439F2 /* terms.h */,
+				A16660911329BDB600B439F2 /* terms.m */,
 				A1CF2CCE132E8AE20085794D /* MainScreen.h */,
 				A1CF2CCF132E8AE20085794D /* MainScreen.m */,
+				6B80F56A1432DE0E004E12DA /* cameraModule.h */,
+				6B80F56B1432DE0E004E12DA /* cameraModule.m */,
+				6B80F56C1432DE0E004E12DA /* cameraModule.xib */,
+				A1CF2D2F132E921D0085794D /* wordcloud.h */,
+				A1CF2D30132E921D0085794D /* wordcloud.m */,
+				A1F39AE41352BFA600CD6928 /* SelectPhoto.h */,
+				A1F39AE51352BFA700CD6928 /* SelectPhoto.m */,
+				6B80F5701432E84E004E12DA /* voiceRecordModule.h */,
+				6B80F5711432E84E004E12DA /* voiceRecordModule.m */,
+				6B80F5721432E84F004E12DA /* voiceRecordModule.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -181,6 +200,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				6B80F5751432EDC7004E12DA /* AVFoundation.framework */,
 				A1665E7E1329985800B439F2 /* CDataScanner.h */,
 				A1665E7F1329985800B439F2 /* CDataScanner.m */,
 				A1665E801329985800B439F2 /* Extensions */,
@@ -343,6 +363,8 @@
 				A1CF2CD2132E8AE20085794D /* MainScreen.xib in Resources */,
 				A1CF2D33132E921D0085794D /* wordcloud.xib in Resources */,
 				A1F39AE81352C38000CD6928 /* SelectPhoto.xib in Resources */,
+				6B80F56E1432DE0E004E12DA /* cameraModule.xib in Resources */,
+				6B80F5741432E84F004E12DA /* voiceRecordModule.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +401,8 @@
 				A1F39AE31352BF6900CD6928 /* PAMCell.m in Sources */,
 				A1F39AE61352BFA700CD6928 /* SelectPhoto.m in Sources */,
 				A1F39AF11352C41E00CD6928 /* AsyncImageView.m in Sources */,
+				6B80F56D1432DE0E004E12DA /* cameraModule.m in Sources */,
+				6B80F5731432E84F004E12DA /* voiceRecordModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +419,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = audience_Prefix.pch;
 				INFOPLIST_FILE = "audience-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
 				PRODUCT_NAME = Frontstage;
 			};
 			name = Debug;
@@ -407,6 +432,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = audience_Prefix.pch;
 				INFOPLIST_FILE = "audience-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
 				PRODUCT_NAME = Frontstage;
 				VALIDATE_PRODUCT = YES;
 			};

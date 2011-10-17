@@ -76,6 +76,9 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
 	if ([[httprequest responseString] isEqualToString:@"OK"]) {
 		// go to main view with features
 		//[self dismissModalViewControllerAnimated:YES];
+        
+        //Remember to change login.m as well!!
+        
 		MainScreen *ms = [[MainScreen alloc] initWithNibName:@"MainScreen" bundle:nil];
         NSMutableArray *features= [[[NSMutableArray alloc] init] autorelease];
         if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"wordcloud"] isEqualToString:@"1"]) {
@@ -83,6 +86,12 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
         }
         if ([[[NSUserDefaults standardUserDefaults] objectForKey:@"clicker"] isEqualToString:@"1"]) {
             [features addObject:@"photopicker"];
+        }
+        if([[[NSUserDefaults standardUserDefaults] objectForKey:@"camera_enable"] isEqualToString:@"1"]){
+            [features addObject:@"camera"];
+        }
+        if([[[NSUserDefaults standardUserDefaults] objectForKey:@"audio_enable"] isEqualToString:@"1"]){
+            [features addObject:@"voicerecord"];
         }
         
 		ms.features = features;
